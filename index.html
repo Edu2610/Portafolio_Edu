@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assest/styles.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!--Apertura del header + inclusión de barra superior-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-color">
+            <div class="container-fluid">
+                <a style="color: white" class="navbar-brand" href="./index.html">Portafolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav__a--sombra" aria-current="page" href="./Proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav__a--sombra" href="Habilidades.html">Habilidades</a>
+                        </li>
+                        <li class="nav-item nav__a--sombra">
+                            <a class="nav-link" href="contacto.html" tabindex="-1">Contactame</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main_background container-fluid d-flex justify-content-center align-items-center">
+
+        <div class="card mb-3 bg-dark text-white" style="max-width: 100vw; padding: auto;margin: 2rem;">
+            <div class="row g-0">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img src="./assest/img/Wonderland_coffee.jpg" class="img-fluid p-4" alt="Imagen mía sentado"
+                        style="border-radius: 2rem;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h1 class="card-title text-center font-roboto">Mi Portafolio</h1>
+                        <p class="card-text main__p--justificada">¡Hola! Soy Eduardo, y te doy la bienvenida a mi espacio personal en la web. Aquí encontrarás una colección de mis proyectos, trabajos y logros en el ámbito de la programación y el desarrollo web. 
+                            Me apasiona la tecnología y siempre estoy en búsqueda de nuevos desafíos y oportunidades para crecer profesionalmente. 
+                            Navega a través de mis proyectos y descubre más sobre mis habilidades y experiencias. ¡Espero que disfrutes tu visita!
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <section>
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assest/img/front_end.webp" class="card-img-top img__card--tamaño" alt="Imagen de proyectos"> 
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Proyectos</h5>
+                        <p class="card-text">En la siguiente sección puedes revisar los proyectos en los que he trabajado</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-dark" id="botonProyectos" >Proyectos</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assest/img/habilidades.webp" class="card-img-top img__card--tamaño" alt="Imagen de habilidades">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Habilidades</h5>
+                        <p class="card-text">Ingresa en esta sección para conocer que conocimientos poseo y las habilidades con las que puedo ayudarte</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-dark" id="botonHabilidades">Habilidades</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./assest/img/contacto.webp" class="card-img-top img__card--tamaño" alt="imagen contacto">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Formulario de Contacto</h5>
+                        <p class="card-text">Hagamos un buen trabajo juntos. Ingresa a esta sección para contactarme</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-dark" id="botonContacto">Contactame</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-dark text-white text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Portafolio</h5>
+                    <small>
+                        @ Todos los derechos reservados
+                    </small>
+                </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Copyright:
+            <a class="text-white" href="index.html">Portafolio.com</a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+    <script src="./assest/eventos.js"></script>
+</body>
+
+</html>

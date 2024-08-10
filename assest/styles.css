@@ -1,0 +1,57 @@
+.bg-color{
+    background-color: rgba(105, 105, 105, 0.816);
+}
+.header-textoblanco{
+    color: white;
+    
+}
+
+
+body {
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    overflow: auto;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('img/universo_chips.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8; /* Ajusta la opacidad según sea necesario */
+    z-index: -1;
+}
+
+
+.nav__texto--negrita{
+    text-shadow: 1px 2px 4px rgb(158, 157, 157); 
+    font-weight: bold;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.main__p--justificada{
+    text-align: justify;
+    padding: 1rem;
+}
+
+.img__card--tamaño{
+    height: 20rem;
+    width: auto;
+}
+
+.nav__a--sombra{
+    text-shadow: 1px 2px 4px rgb(158, 157, 157);
+    font-weight: bold;
+}
+
